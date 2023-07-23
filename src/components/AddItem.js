@@ -19,7 +19,7 @@ class AddItem extends React.Component {
       >
         <div className="mb-3 col-4">
           <label htmlFor="inputName" className="form-label">
-            Name
+              Train Number
           </label>
           <input
             type="text"
@@ -35,7 +35,7 @@ class AddItem extends React.Component {
         </div>
         <div className="mb-3 col-4">
           <label htmlFor="inputPrice" className="form-label">
-            Price
+            Ticket Price 
           </label>
           <input
             type="number"
@@ -49,7 +49,7 @@ class AddItem extends React.Component {
           />
         </div>
         <button type="submit" className="btn btn-primary col-4">
-          Add
+          Add Train For Booking
         </button>
       </form>
     );
